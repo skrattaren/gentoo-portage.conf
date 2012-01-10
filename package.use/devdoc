@@ -1,0 +1,8 @@
+app-admin/eselect               doc
+app-shells/zsh                  doc
+dev-db/postgresql-*             doc
+sys-fs/inotify-tools            doc
+x11-libs/qt-assistant           doc
+sys-apps/pkgcore                doc
+
+# vim: filetype=gentoo-package-use

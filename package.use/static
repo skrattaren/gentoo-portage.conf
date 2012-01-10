@@ -1,0 +1,15 @@
+app-arch/bzip2                  static-libs
+dev-libs/libgcrypt              static-libs
+dev-libs/libgpg-error           static-libs
+dev-libs/popt                   static-libs
+media-libs/freetype             static-libs
+media-libs/jpeg                 static-libs
+media-libs/lcms                 static-libs
+media-libs/libmng               static-libs
+media-libs/libpng               static-libs
+dev-libs/openssl                static-libs
+sys-apps/util-linux             static-libs
+sys-libs/zlib                   static-libs
+virtual/jpeg                    static-libs
+
+# vim: filetype=gentoo-package-use

@@ -1,0 +1,86 @@
+app-admin/conky                 hddtemp iostats mpd noxdamage -moc -rss
+app-arch/p7zip                  rar
+app-backup/bacula               -sqlite
+app-cdr/k3b                     -encode
+app-editors/vim                 cscope vim-pager
+app-editors/gvim                cscope
+app-misc/emelfm2                -udev -policykit
+app-office/lyx                  luatex -html -latex
+app-portage/eix                 -hardened
+app-portage/layman              git subversion
+app-text/calibre                -udisks
+app-text/lodgeit                vim
+dev-db/postgresql-server        perl
+dev-db/sqlite                   secure-delete unlock-notify
+dev-lang/python                 wininst
+dev-libs/apr-util               sqlite3 -sqlite
+dev-libs/tinyxml                -stl
+dev-libs/xmlrpc-c               -tools
+dev-python/PyQt4                assistant sql
+dev-python/imaging              -lcms
+dev-python/ipython              -smp
+dev-python/spyder               pylint #ipython
+dev-util/qt-creator             debugger bookmarks doc fakevim git qtscript subversion
+dev-vcs/git                     -gtk
+games-action/teeworlds          server
+gnome-base/librsvg              -zlib
+mail-client/mutt                imap pop sidebar smtp
+mail-client/thunderbird         -crypt
+media-gfx/imagemagick           -corefonts
+media-gfx/splashutils           fbcondecor
+media-gfx/ufraw                 -gtk
+media-libs/gd                   fontconfig
+media-libs/libpng               apng
+media-libs/mediastreamer        video
+media-libs/mesa                 gles -classic #llvm
+media-libs/phonon               -vlc
+media-sound/cue2tracks          -aac -mp3 -mp4 -vorbis -wavpack
+media-sound/mpd                 inotify -audiofile
+media-sound/ncmpcpp             clock curl
+media-sound/puddletag           cover musicbrainz
+media-sound/shntool             mac
+media-sound/split2flac          imagemagick mac -mp4 -vorbis
+media-video/hwdecode-demos      vaapi
+media-video/mplayer2            cdparanoia -cdio -dirac -dv -live -mp3 -schroedinger
+net-analyzer/nmap               -lua
+net-fs/coda                     client server
+net-im/pidgin                   -gstreamer
+net-im/psi                      iconsets plugins
+net-libs/xulrunner              system-sqlite
+net-misc/dhcpcd                 -zeroconf
+net-p2p/transmission            utp
+net-print/cups                  gnutls ppds samba slp
+net-print/hplip                 hpijs -libnotify
+sci-visualization/gnuplot       gd plotutils
+sys-block/parted                device-mapper
+sys-apps/pciutils               -zlib
+sys-apps/pmount                 -crypt
+sys-apps/tuxonice-userui        fbsplash
+sys-boot/grub                   -ncurses
+sys-devel/gcc                   go graphite
+sys-fs/ntfs3g                   ntfsprogs
+sys-fs/udev                     extras
+sys-kernel/gentoo-sources       symlink
+sys-libs/zlib                   minizip
+sys-power/nvclock               nvcontrol
+www-apps/bitten                 master
+www-servers/nginx               -nginx_modules_http_geo
+www-client/firefox              system-sqlite
+www-client/icecat               custom-cflags custom-optimization system-sqlite
+www-client/luakit               luajit
+www-plugins/adobe-flash         -32bit
+www-plugins/gnash               nsplugin -agg -fbcon
+www-plugins/lightspark          nsplugin
+www-servers/cherokee            admin coverpage ldap
+x11-apps/xinit                  minimal
+x11-libs/cairo                  cleartype
+x11-libs/gtkdatabox             -glade
+x11-libs/qt-gui                 gtkstyle raster
+x11-libs/wxGTK                  -gstreamer
+=x11-misc/kbdd-9999             debug
+x11-terms/rxvt-unicode          buffer-on-clear fading-colors perl pixbuf secondary-wheel unicode3 -vanilla
+x11-themes/faenza-icon-theme    minimal
+x11-themes/gentoo-artwork       offensive
+sys-apps/flashrom               wiki serprog
+
+# vim: filetype=gentoo-package-use

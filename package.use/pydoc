@@ -1,0 +1,6 @@
+dev-lang/python                 doc
+dev-python/*                    doc examples
+dev-python/epydoc               -X
+dev-python/matplotlib           -doc
+
+# vim: filetype=gentoo-package-use

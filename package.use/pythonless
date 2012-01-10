@@ -1,0 +1,6 @@
+media-gfx/graphviz              -python
+media-gfx/hugin                 -python
+media-libs/lcms                 -python
+sys-libs/libcap-ng              -python
+
+# vim: filetype=gentoo-package-use
