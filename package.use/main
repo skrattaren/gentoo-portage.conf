@@ -1,4 +1,5 @@
 app-admin/conky                 hddtemp iostats mpd noxdamage -moc -rss
+app-admin/testdisk              ntfs reiserfs
 app-arch/p7zip                  rar
 app-backup/bacula               -sqlite
 app-cdr/k3b                     -encode
@@ -16,6 +17,7 @@ dev-lang/python                 wininst
 dev-libs/apr-util               sqlite3 -sqlite
 dev-libs/tinyxml                -stl
 dev-libs/xmlrpc-c               -tools
+dev-python/bpython              urwid
 dev-python/PyQt4                assistant sql
 dev-python/imaging              -lcms
 dev-python/ipython              -smp
@@ -24,7 +26,7 @@ dev-util/qt-creator             debugger bookmarks doc fakevim git qtscript subv
 dev-vcs/git                     -gtk
 games-action/teeworlds          server
 gnome-base/librsvg              -zlib
-mail-client/mutt                imap pop sidebar smtp
+mail-client/mutt                imap pop sidebar smime smtp
 mail-client/thunderbird         -crypt
 media-gfx/imagemagick           -corefonts
 media-gfx/splashutils           fbcondecor
@@ -48,6 +50,7 @@ net-im/pidgin                   -gstreamer
 net-im/psi                      iconsets plugins
 net-libs/xulrunner              system-sqlite
 net-misc/dhcpcd                 -zeroconf
+net-misc/wicd                    -gtk -libnotify
 net-p2p/transmission            utp
 net-print/cups                  gnutls ppds samba slp
 net-print/hplip                 hpijs -libnotify
@@ -61,6 +64,7 @@ sys-devel/gcc                   go graphite
 sys-fs/ntfs3g                   ntfsprogs
 sys-fs/udev                     extras
 sys-kernel/gentoo-sources       symlink
+sys-kernel/tuxonice-sources     symlink
 sys-libs/zlib                   minizip
 sys-power/nvclock               nvcontrol
 www-apps/bitten                 master
@@ -80,6 +84,8 @@ x11-libs/wxGTK                  -gstreamer
 =x11-misc/kbdd-9999             debug
 x11-terms/rxvt-unicode          buffer-on-clear fading-colors perl pixbuf secondary-wheel unicode3 -vanilla
 x11-themes/faenza-icon-theme    minimal
+x11-themes/nou-icon-theme       minimal
+x11-themes/nuovo-icon-theme     minimal
 x11-themes/gentoo-artwork       offensive
 sys-apps/flashrom               wiki serprog
 
