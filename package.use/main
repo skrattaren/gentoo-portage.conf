@@ -50,8 +50,8 @@ net-im/pidgin                   -gstreamer
 net-im/psi                      iconsets plugins
 net-libs/xulrunner              system-sqlite
 net-misc/dhcpcd                 -zeroconf
-net-misc/wicd                    -gtk -libnotify
-net-p2p/transmission            utp
+net-misc/wicd                   -gtk -libnotify
+net-p2p/transmission            -gtk
 net-print/cups                  gnutls ppds samba slp
 net-print/hplip                 hpijs -libnotify
 sci-visualization/gnuplot       gd plotutils
