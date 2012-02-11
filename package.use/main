@@ -35,7 +35,7 @@ media-gfx/ufraw                 -gtk
 media-libs/gd                   fontconfig
 media-libs/libpng               apng
 media-libs/mediastreamer        video
-media-libs/mesa                 gles -classic #llvm
+media-libs/mesa                 gles
 media-libs/phonon               -vlc
 media-sound/cue2tracks          -aac -mp3 -mp4 -vorbis -wavpack
 media-sound/mpd                 inotify -audiofile
@@ -61,6 +61,9 @@ sys-block/parted                device-mapper
 sys-apps/pciutils               -zlib
 sys-apps/pmount                 -crypt
 sys-apps/tuxonice-userui        fbsplash
+sys-auth/consolekit             policykit
+sys-auth/pambase                consolekit
+sys-auth/polkit                 -gtk
 sys-boot/grub                   -ncurses
 sys-devel/gcc                   go graphite
 sys-fs/ntfs3g                   ntfsprogs
