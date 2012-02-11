@@ -15,6 +15,7 @@ dev-db/postgresql-server        perl
 dev-db/sqlite                   secure-delete unlock-notify
 dev-lang/python                 wininst
 dev-libs/apr-util               sqlite3 -sqlite
+dev-libs/nettle                 gmp
 dev-libs/tinyxml                -stl
 dev-libs/xmlrpc-c               -tools
 dev-python/bpython              urwid
@@ -48,11 +49,12 @@ net-analyzer/nmap               -lua
 net-fs/coda                     client server
 net-im/pidgin                   -gstreamer
 net-im/psi                      iconsets plugins
+net-libs/gnutls                 nettle
 net-libs/xulrunner              system-sqlite
 net-misc/dhcpcd                 -zeroconf
 net-misc/wicd                   -gtk -libnotify
 net-p2p/transmission            -gtk
-net-print/cups                  gnutls ppds samba slp
+net-print/cups                  ppds samba slp
 net-print/hplip                 hpijs -libnotify
 sci-visualization/gnuplot       gd plotutils
 sys-block/parted                device-mapper
