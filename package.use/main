@@ -35,7 +35,7 @@ media-gfx/ufraw                 -gtk
 media-libs/gd                   fontconfig
 media-libs/libpng               apng
 media-libs/mediastreamer        video
-media-libs/mesa                 gles
+media-libs/mesa                 g3dvl gles openvg xvmc
 media-libs/phonon               -vlc
 media-sound/cue2tracks          -aac -mp3 -mp4 -vorbis -wavpack
 media-sound/mpd                 inotify -audiofile
