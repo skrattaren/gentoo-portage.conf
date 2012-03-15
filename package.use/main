@@ -47,6 +47,7 @@ media-sound/split2flac          imagemagick mac -mp4 -vorbis
 media-video/hwdecode-demos      vaapi
 media-video/mplayer2            cdparanoia -cdio -dirac -dv -live -mp3 -schroedinger
 net-analyzer/nmap               -lua
+net-dns/dnsmasq                 script
 net-fs/coda                     client server
 net-im/pidgin                   -gstreamer
 net-im/psi                      iconsets plugins
