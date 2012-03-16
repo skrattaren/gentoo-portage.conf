@@ -19,6 +19,7 @@ dev-libs/apr-util               sqlite3 -sqlite
 dev-libs/nettle                 gmp
 dev-libs/tinyxml                -stl
 dev-libs/xmlrpc-c               -tools
+app-text/texi2html              -unicode
 dev-python/bpython              urwid
 dev-python/PyQt4                assistant sql
 dev-python/imaging              -lcms
