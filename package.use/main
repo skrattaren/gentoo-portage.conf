@@ -2,10 +2,8 @@ app-admin/conky                 hddtemp iostats mpd noxdamage -moc -rss
 app-admin/testdisk              ntfs reiserfs
 app-arch/p7zip                  rar
 app-backup/bacula               -sqlite
-app-cdr/k3b                     -encode
 app-editors/vim                 cscope vim-pager
 app-editors/gvim                cscope
-app-misc/emelfm2                -udev -policykit
 app-office/lyx                  luatex -html -latex
 app-portage/eix                 -hardened
 app-portage/layman              git subversion
@@ -46,7 +44,6 @@ media-sound/split2flac          imagemagick mac -mp4 -vorbis
 media-video/hwdecode-demos      vaapi
 media-video/mplayer2            cdparanoia -cdio -dirac -dv -live -mp3 -schroedinger
 net-analyzer/nmap               -lua
-net-fs/coda                     client server
 net-im/pidgin                   -gstreamer
 net-im/psi                      iconsets plugins
 net-libs/gnutls                 nettle
@@ -71,14 +68,11 @@ sys-fs/udev                     extras
 sys-kernel/gentoo-sources       symlink
 sys-kernel/tuxonice-sources     symlink
 sys-libs/zlib                   minizip
-sys-power/nvclock               nvcontrol
-www-apps/bitten                 master
 www-servers/nginx               -nginx_modules_http_geo
 www-client/firefox              system-sqlite
 www-client/icecat               custom-cflags custom-optimization system-sqlite
 www-client/luakit               luajit
 www-plugins/adobe-flash         -32bit
-www-plugins/gnash               nsplugin -agg -fbcon
 www-plugins/lightspark          nsplugin
 www-servers/cherokee            admin coverpage ldap
 x11-apps/xinit                  minimal
