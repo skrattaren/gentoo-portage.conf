@@ -65,8 +65,7 @@ sys-boot/grub                   -ncurses
 sys-devel/gcc                   go graphite
 sys-fs/ntfs3g                   ntfsprogs
 sys-fs/udev                     extras
-sys-kernel/gentoo-sources       symlink
-sys-kernel/tuxonice-sources     symlink
+sys-kernel/pf-sources           symlink
 sys-libs/zlib                   minizip
 www-servers/nginx               -nginx_modules_http_geo
 www-client/firefox              system-sqlite
