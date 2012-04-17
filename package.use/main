@@ -11,6 +11,7 @@ app-text/calibre                -udisks
 app-text/lodgeit                vim
 dev-db/postgresql-server        perl
 dev-db/sqlite                   secure-delete unlock-notify
+dev-lang/ghc                    llvm
 dev-lang/python                 wininst
 dev-libs/apr-util               sqlite3 -sqlite
 dev-libs/nettle                 gmp
