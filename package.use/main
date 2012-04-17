@@ -22,6 +22,7 @@ dev-python/PyQt4                assistant sql
 dev-python/imaging              -lcms
 dev-python/ipython              -smp
 dev-python/spyder               pylint #ipython
+dev-python/winpdb               wxwidgets
 dev-util/qt-creator             debugger bookmarks doc fakevim git qtscript subversion
 dev-vcs/git                     -gtk
 games-action/teeworlds          server
