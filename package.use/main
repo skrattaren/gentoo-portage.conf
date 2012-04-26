@@ -17,6 +17,7 @@ dev-libs/apr-util               sqlite3 -sqlite
 dev-libs/nettle                 gmp
 dev-libs/tinyxml                -stl
 dev-libs/xmlrpc-c               -tools
+app-text/texi2html              -unicode
 dev-python/bpython              urwid
 dev-python/PyQt4                assistant sql
 dev-python/imaging              -lcms
@@ -45,6 +46,7 @@ media-sound/split2flac          imagemagick mac -mp4 -vorbis
 media-video/hwdecode-demos      vaapi
 media-video/mplayer2            cdparanoia -cdio -dirac -dv -live -mp3 -schroedinger
 net-analyzer/nmap               -lua
+net-dns/dnsmasq                 script
 net-im/pidgin                   -gstreamer
 net-im/psi                      iconsets plugins
 net-libs/gnutls                 nettle
@@ -66,6 +68,8 @@ sys-fs/udev                     extras
 sys-kernel/gentoo-sources       symlink
 sys-libs/gdbm                   berkdb
 sys-libs/zlib                   minizip
+sys-power/nvclock               nvcontrol
+www-apps/bitten                 master
 www-servers/nginx               -nginx_modules_http_geo
 www-client/firefox              system-sqlite
 www-client/icecat               custom-cflags custom-optimization system-sqlite
