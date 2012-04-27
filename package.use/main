@@ -68,6 +68,7 @@ sys-devel/gcc                   go graphite
 sys-fs/ntfs3g                   ntfsprogs
 sys-fs/udev                     extras usb_modeswitch
 sys-kernel/pf-sources           symlink
+sys-libs/gdbm                   berkdb
 sys-libs/zlib                   minizip
 www-servers/nginx               -nginx_modules_http_geo
 www-client/firefox              system-sqlite
