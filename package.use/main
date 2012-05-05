@@ -57,6 +57,7 @@ net-print/cups                  ppds samba slp
 net-print/hplip                 hpijs -libnotify
 sci-visualization/gnuplot       gd plotutils
 sys-block/parted                device-mapper
+sys-apps/iproute2               -iptables
 sys-apps/pciutils               -zlib
 sys-apps/pmount                 -crypt
 sys-apps/tuxonice-userui        fbsplash
