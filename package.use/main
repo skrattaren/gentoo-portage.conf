@@ -61,9 +61,7 @@ sys-apps/iproute2               -iptables
 sys-apps/pciutils               -zlib
 sys-apps/pmount                 -crypt
 sys-apps/tuxonice-userui        fbsplash
-sys-auth/consolekit             policykit
 sys-auth/pambase                consolekit
-sys-auth/polkit                 -gtk
 sys-boot/grub                   -ncurses
 sys-devel/gcc                   go graphite
 sys-fs/ntfs3g                   ntfsprogs
