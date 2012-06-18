@@ -4,11 +4,13 @@ app-arch/p7zip                  rar
 app-backup/bacula               -sqlite
 app-editors/vim                 cscope vim-pager
 app-editors/gvim                cscope
-app-office/lyx                  luatex -html -latex
+app-office/lyx                  luatex xetex
 app-portage/eix                 -hardened
 app-portage/layman              git subversion
 app-text/calibre                -udisks
 app-text/lodgeit                vim
+app-text/texlive                luatex xetex
+app-text/texlive-core           xetex
 dev-db/postgresql-server        perl
 dev-db/sqlite                   secure-delete unlock-notify
 dev-lang/ghc                    llvm
