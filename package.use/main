@@ -35,7 +35,7 @@ media-gfx/ufraw                 -gtk
 media-libs/gd                   fontconfig
 media-libs/libpng               apng
 media-libs/mediastreamer        video
-media-libs/mesa                 gles xa -classic #llvm
+media-libs/mesa                 g3dvl gles openvg xa xvmc
 media-libs/phonon               -vlc
 media-sound/mpd                 inotify -audiofile
 media-sound/ncmpcpp             clock curl
@@ -57,19 +57,25 @@ net-print/cups                  ppds samba slp
 net-print/hplip                 hpijs -libnotify
 sci-visualization/gnuplot       gd plotutils
 sys-block/parted                device-mapper
+sys-apps/iproute2               -iptables
 sys-apps/pciutils               -zlib
 sys-apps/pmount                 -crypt
+sys-apps/tuxonice-userui        fbsplash
+sys-auth/consolekit             policykit
+sys-auth/pambase                consolekit
+sys-auth/polkit                 -gtk
 sys-boot/grub                   -ncurses
 sys-devel/gcc                   go graphite
 sys-fs/ntfs3g                   ntfsprogs
-sys-fs/udev                     extras
-sys-kernel/gentoo-sources       symlink
+sys-fs/udev                     extras usb_modeswitch
+sys-kernel/pf-sources           symlink
 sys-libs/gdbm                   berkdb
 sys-libs/zlib                   minizip
 www-servers/nginx               -nginx_modules_http_geo
 www-client/firefox              system-sqlite
 www-client/icecat               custom-cflags custom-optimization system-sqlite
 www-client/luakit               luajit
+www-plugins/adobe-flash         -32bit
 www-plugins/lightspark          nsplugin
 www-servers/cherokee            admin coverpage ldap
 x11-apps/xinit                  minimal
@@ -78,6 +84,7 @@ x11-libs/gtkdatabox             -glade
 x11-libs/qt-gui                 gtkstyle raster
 x11-libs/wxGTK                  -gstreamer
 =x11-misc/kbdd-9999             debug
+x11-misc/obconf                 lxde
 x11-terms/rxvt-unicode          fading-colors perl pixbuf secondary-wheel unicode3 -vanilla #buffer-on-clear
 x11-themes/faenza-icon-theme    minimal
 x11-themes/nou-icon-theme       minimal
