@@ -68,7 +68,6 @@ sys-libs/gdbm                   berkdb
 sys-libs/zlib                   minizip
 www-servers/nginx               -nginx_modules_http_geo
 www-client/firefox              system-sqlite
-www-client/icecat               custom-cflags custom-optimization system-sqlite
 www-client/luakit               luajit
 www-plugins/lightspark          nsplugin
 www-servers/cherokee            admin coverpage ldap
