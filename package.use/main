@@ -74,7 +74,6 @@ sys-power/nvclock               nvcontrol
 www-apps/bitten                 master
 www-servers/nginx               -nginx_modules_http_geo
 www-client/firefox              system-sqlite
-www-client/icecat               custom-cflags custom-optimization system-sqlite
 www-client/luakit               luajit
 www-plugins/lightspark          nsplugin
 www-servers/cherokee            admin coverpage ldap
