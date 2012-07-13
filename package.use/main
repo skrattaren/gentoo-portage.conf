@@ -35,6 +35,7 @@ mail-client/thunderbird         -crypt
 media-gfx/imagemagick           -corefonts
 media-gfx/splashutils           fbcondecor
 media-gfx/ufraw                 -gtk
+media-libs/chromaprint          tools
 media-libs/gd                   fontconfig
 media-libs/libpng               apng
 media-libs/mediastreamer        video
