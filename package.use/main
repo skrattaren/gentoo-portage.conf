@@ -4,6 +4,7 @@ app-arch/p7zip                  rar
 app-backup/bacula               -sqlite
 app-editors/vim                 cscope vim-pager
 app-editors/gvim                cscope
+app-office/libreoffice          -postgres
 app-office/lyx                  luatex xetex
 app-portage/eix                 -hardened
 app-portage/layman              git subversion
