@@ -42,7 +42,7 @@ media-libs/libpng               apng
 media-libs/mediastreamer        video
 media-libs/mesa                 gles xa -classic #llvm
 media-libs/phonon               -vlc
-media-sound/clementine          -udev
+media-sound/clementine          lastfm -udev
 media-sound/mpd                 inotify -audiofile
 media-sound/ncmpcpp             clock curl
 media-sound/puddletag           cover musicbrainz
