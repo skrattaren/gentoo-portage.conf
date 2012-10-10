@@ -35,6 +35,7 @@ media-gfx/ufraw                 -gtk
 media-libs/chromaprint          tools
 media-libs/gd                   fontconfig
 media-libs/libpng               apng
+media-libs/libraw               demosaic
 media-libs/mediastreamer        video
 media-libs/mesa                 gles xa -classic #llvm
 media-libs/phonon               -vlc
