@@ -50,7 +50,6 @@ net-analyzer/nmap               -lua
 net-im/pidgin                   -gstreamer
 net-im/psi                      iconsets plugins
 net-libs/gnutls                 nettle
-net-libs/xulrunner              system-sqlite
 net-libs/webkit-gtk             -geoloc
 net-misc/dhcpcd                 -zeroconf
 net-misc/wicd                   -gtk -libnotify
