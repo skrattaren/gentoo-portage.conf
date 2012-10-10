@@ -35,6 +35,7 @@ media-gfx/ufraw                 -gtk
 media-libs/chromaprint          tools
 media-libs/gd                   fontconfig
 media-libs/libpng               apng
+media-libs/libraw               demosaic
 media-libs/mediastreamer        video
 media-libs/mesa                 g3dvl gles openvg r600-llvm-compiler xa xorg xvmc
 media-libs/phonon               -vlc
@@ -44,12 +45,11 @@ media-sound/puddletag           cover musicbrainz
 media-sound/shntool             mac
 media-sound/split2flac          imagemagick mac -mp4 -vorbis
 media-video/hwdecode-demos      vaapi
-media-video/mplayer2            cdparanoia -cdio -dirac -dv -live -mp3 -schroedinger
+media-video/mplayer2            cdparanoia -dirac -dv -live -mp3 -schroedinger
 net-analyzer/nmap               -lua
 net-im/pidgin                   -gstreamer
 net-im/psi                      iconsets plugins
 net-libs/gnutls                 nettle
-net-libs/xulrunner              system-sqlite
 net-libs/webkit-gtk             -geoloc
 net-misc/dhcpcd                 -zeroconf
 net-misc/wicd                   -gtk -libnotify
