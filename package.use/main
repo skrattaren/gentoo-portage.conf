@@ -43,6 +43,7 @@ media-libs/libraw               demosaic
 media-libs/mediastreamer        video
 media-libs/mesa                 gles xa -classic #llvm
 media-libs/phonon               -vlc
+media-sound/beets               bpd replaygain web
 media-sound/clementine          lastfm -udev
 media-sound/mpd                 inotify -audiofile
 media-sound/ncmpcpp             clock curl
