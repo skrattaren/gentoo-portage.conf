@@ -1,0 +1,5 @@
+kde-base/*                      -handbook
+kde-base/okular                 chm djvu ebook
+kde-base/solid                  wicd
+
+# vim: filetype=gentoo-package-use
