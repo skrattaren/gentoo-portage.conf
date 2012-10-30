@@ -30,7 +30,7 @@ gnome-base/librsvg              -zlib
 mail-client/mutt                imap pop sidebar smime smtp
 mail-client/thunderbird         -crypt
 media-gfx/imagemagick           -corefonts
-media-gfx/splashutils           fbcondecor
+media-gfx/splashutils           fbcondecor gpm
 media-gfx/ufraw                 -gtk
 media-libs/chromaprint          tools
 media-libs/gd                   fontconfig
