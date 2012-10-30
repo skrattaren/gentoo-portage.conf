@@ -4,11 +4,14 @@ app-arch/p7zip                  rar
 app-backup/bacula               -sqlite
 app-editors/vim                 cscope vim-pager
 app-editors/gvim                cscope
-app-office/lyx                  luatex -html -latex
+app-office/libreoffice          -postgres
+app-office/lyx                  luatex xetex
 app-portage/eix                 -hardened
 app-portage/layman              git subversion
 app-text/calibre                -udisks
 app-text/lodgeit                vim
+app-text/texlive                luatex xetex
+app-text/texlive-core           xetex
 dev-db/postgresql-server        perl
 dev-db/sqlite                   secure-delete unlock-notify
 dev-lang/ghc                    llvm
@@ -17,6 +20,7 @@ dev-libs/apr-util               sqlite3 -sqlite
 dev-libs/nettle                 gmp
 dev-libs/tinyxml                -stl
 dev-libs/xmlrpc-c               -tools
+app-text/texi2html              -unicode
 dev-python/bpython              urwid
 dev-python/PyQt4                assistant sql
 dev-python/imaging              -lcms
@@ -39,6 +43,8 @@ media-libs/libraw               demosaic
 media-libs/mediastreamer        video
 media-libs/mesa                 gles xa -classic #llvm
 media-libs/phonon               -vlc
+media-sound/beets               bpd replaygain web
+media-sound/clementine          lastfm -udev
 media-sound/mpd                 inotify -audiofile
 media-sound/ncmpcpp             clock curl
 media-sound/puddletag           cover musicbrainz
@@ -47,6 +53,7 @@ media-sound/split2flac          imagemagick mac -mp4 -vorbis
 media-video/hwdecode-demos      vaapi
 media-video/mplayer2            cdparanoia -dirac -dv -live -mp3 -schroedinger
 net-analyzer/nmap               -lua
+net-dns/dnsmasq                 script
 net-im/pidgin                   -gstreamer
 net-im/psi                      iconsets plugins
 net-libs/gnutls                 nettle
@@ -68,6 +75,8 @@ sys-fs/udev                     extras
 sys-kernel/gentoo-sources       symlink
 sys-libs/gdbm                   berkdb
 sys-libs/zlib                   minizip
+sys-power/nvclock               nvcontrol
+www-apps/bitten                 master
 www-servers/nginx               -nginx_modules_http_geo
 www-client/firefox              system-sqlite
 www-client/luakit               luajit
