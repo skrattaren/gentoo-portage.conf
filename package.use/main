@@ -61,7 +61,6 @@ net-libs/libproxy               -pac -webkit
 net-libs/webkit-gtk             -geoloc
 net-misc/dhcpcd                 -zeroconf
 net-misc/wicd                   -gtk -libnotify
-net-p2p/transmission            -gtk
 net-print/cups                  ppds samba slp
 net-print/hplip                 hpijs -libnotify
 sci-visualization/gnuplot       gd plotutils
