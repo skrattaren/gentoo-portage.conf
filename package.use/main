@@ -71,6 +71,7 @@ sys-libs/zlib                   minizip
 www-servers/nginx               -nginx_modules_http_geo
 www-client/firefox              system-sqlite
 www-client/luakit               luajit
+www-plugins/google-talkplugin   -system-libCg
 www-plugins/lightspark          nsplugin
 www-servers/cherokee            admin coverpage ldap
 x11-apps/xinit                  minimal
