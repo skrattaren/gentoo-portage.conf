@@ -2,8 +2,8 @@ app-admin/conky                 hddtemp iostats mpd noxdamage -moc -rss
 app-admin/testdisk              ntfs reiserfs
 app-arch/p7zip                  rar
 app-backup/bacula               -sqlite
-app-editors/vim                 cscope vim-pager
 app-editors/gvim                cscope
+app-editors/vim                 cscope vim-pager
 app-office/lyx                  luatex -html -latex
 app-portage/eix                 -hardened
 app-portage/layman              git subversion
@@ -17,8 +17,8 @@ dev-libs/apr-util               sqlite3 -sqlite
 dev-libs/nettle                 gmp
 dev-libs/tinyxml                -stl
 dev-libs/xmlrpc-c               -tools
-dev-python/bpython              urwid
 dev-python/PyQt4                assistant sql
+dev-python/bpython              urwid
 dev-python/imaging              -lcms
 dev-python/ipython              -smp
 dev-python/spyder               pylint #ipython
@@ -57,12 +57,13 @@ net-p2p/transmission            -gtk
 net-print/cups                  ppds samba slp
 net-print/hplip                 hpijs -libnotify
 sci-visualization/gnuplot       gd plotutils
-sys-block/parted                device-mapper
+sys-apps/flashrom               wiki serprog
 sys-apps/iproute2               -iptables
 sys-apps/pciutils               -zlib
 sys-apps/pmount                 -crypt
 sys-apps/tuxonice-userui        fbsplash
 sys-auth/pambase                consolekit
+sys-block/parted                device-mapper
 sys-boot/grub                   -ncurses
 sys-devel/gcc                   go graphite
 sys-fs/ntfs3g                   ntfsprogs
@@ -70,13 +71,13 @@ sys-fs/udev                     extras
 sys-kernel/pf-sources           symlink
 sys-libs/gdbm                   berkdb
 sys-libs/zlib                   minizip
-www-servers/nginx               -nginx_modules_http_geo
 www-client/firefox              system-sqlite
 www-client/luakit               luajit
 www-plugins/adobe-flash         -32bit
 www-plugins/google-talkplugin   -system-libCg
 www-plugins/lightspark          nsplugin
 www-servers/cherokee            admin coverpage ldap
+www-servers/nginx               -nginx_modules_http_geo
 x11-apps/xinit                  minimal
 x11-libs/cairo                  cleartype
 x11-libs/gtkdatabox             -glade
@@ -86,9 +87,8 @@ x11-libs/wxGTK                  -gstreamer
 =x11-misc/kbdd-9999             debug
 x11-terms/rxvt-unicode          fading-colors perl pixbuf secondary-wheel unicode3 -vanilla #buffer-on-clear
 x11-themes/faenza-icon-theme    minimal
+x11-themes/gentoo-artwork       offensive
 x11-themes/nou-icon-theme       minimal
 x11-themes/nuovo-icon-theme     minimal
-x11-themes/gentoo-artwork       offensive
-sys-apps/flashrom               wiki serprog
 
 # vim: filetype=gentoo-package-use
