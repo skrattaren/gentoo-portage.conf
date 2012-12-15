@@ -76,8 +76,8 @@ www-servers/cherokee            admin coverpage ldap
 www-servers/nginx               -nginx_modules_http_geo
 x11-apps/xinit                  minimal
 x11-base/xorg-server            kdrive
-x11-libs/cairo                  cleartype
 x11-libs/gtkdatabox             -glade
+x11-libs/pango                  introspection
 x11-libs/qt-gui                 gtkstyle raster
 x11-libs/wxGTK                  -gstreamer
 =x11-misc/kbdd-9999             debug
