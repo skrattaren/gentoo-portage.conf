@@ -80,13 +80,13 @@ www-servers/cherokee            admin coverpage ldap
 www-servers/nginx               -nginx_modules_http_geo
 x11-apps/xinit                  minimal
 x11-base/xorg-server            kdrive
-x11-libs/cairo                  cleartype
 x11-libs/gtkdatabox             -glade
 x11-libs/libdrm                 libkms
+x11-libs/pango                  introspection
 x11-libs/qt-gui                 gtkstyle raster
 x11-libs/wxGTK                  -gstreamer
 =x11-misc/kbdd-9999             debug
-x11-terms/rxvt-unicode          fading-colors perl pixbuf secondary-wheel unicode3 -vanilla #buffer-on-clear
+x11-terms/rxvt-unicode          256-color fading-colors perl pixbuf secondary-wheel unicode3 -vanilla
 x11-themes/faenza-icon-theme    minimal
 x11-themes/gentoo-artwork       offensive
 x11-themes/nou-icon-theme       minimal
