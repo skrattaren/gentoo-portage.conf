@@ -35,7 +35,7 @@ media-libs/chromaprint          tools
 media-libs/gd                   fontconfig
 media-libs/libpng               apng
 media-libs/libraw               demosaic
-media-libs/mediastreamer        video
+media-libs/mediastreamer        g729 video
 media-libs/mesa                 g3dvl gles openvg xa xvmc
 media-libs/phonon               -vlc
 media-sound/mpd                 inotify -audiofile
