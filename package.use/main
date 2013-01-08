@@ -36,7 +36,7 @@ media-libs/gd                   fontconfig
 media-libs/libpng               apng
 media-libs/libraw               demosaic
 media-libs/mediastreamer        g729 video
-media-libs/mesa                 gles xa -classic #llvm
+media-libs/mesa                 gles xa -classic
 media-libs/phonon               -vlc
 media-sound/mpd                 inotify -audiofile
 media-sound/ncmpcpp             clock curl
