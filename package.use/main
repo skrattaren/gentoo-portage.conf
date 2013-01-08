@@ -11,7 +11,7 @@ app-text/calibre                -udisks
 app-text/lodgeit                vim
 dev-db/postgresql-server        perl
 dev-db/sqlite                   secure-delete unlock-notify
-dev-lang/ghc                    llvm
+dev-lang/ghc                    binary llvm
 dev-lang/python                 wininst
 dev-libs/apr-util               sqlite3 -sqlite
 dev-libs/nettle                 gmp
@@ -36,7 +36,7 @@ media-libs/gd                   fontconfig
 media-libs/libpng               apng
 media-libs/libraw               demosaic
 media-libs/mediastreamer        g729 video
-media-libs/mesa                 gles xa -classic
+media-libs/mesa                 g3dvl gles openvg xa xorg xvmc
 media-libs/phonon               -vlc
 media-sound/mpd                 inotify -audiofile
 media-sound/ncmpcpp             clock curl
@@ -58,18 +58,22 @@ net-print/cups                  ppds samba slp
 net-print/hplip                 hpijs -libnotify
 sci-visualization/gnuplot       gd plotutils
 sys-apps/flashrom               wiki serprog
+sys-apps/iproute2               -iptables
 sys-apps/pciutils               -zlib
 sys-apps/pmount                 -crypt
+sys-apps/tuxonice-userui        fbsplash
+sys-auth/pambase                consolekit
 sys-block/parted                device-mapper
 sys-boot/grub                   -ncurses
 sys-devel/gcc                   go graphite
 sys-fs/ntfs3g                   ntfsprogs
 sys-fs/udev                     extras
-sys-kernel/gentoo-sources       symlink
+sys-kernel/pf-sources           symlink
 sys-libs/gdbm                   berkdb
 sys-libs/zlib                   minizip
 www-client/firefox              system-sqlite
 www-client/luakit               luajit
+www-plugins/adobe-flash         -32bit
 www-plugins/google-talkplugin   -system-libCg
 www-plugins/lightspark          nsplugin
 www-servers/cherokee            admin coverpage ldap
@@ -77,6 +81,7 @@ www-servers/nginx               -nginx_modules_http_geo
 x11-apps/xinit                  minimal
 x11-base/xorg-server            kdrive
 x11-libs/gtkdatabox             -glade
+x11-libs/libdrm                 libkms
 x11-libs/pango                  introspection
 x11-libs/qt-gui                 gtkstyle raster
 x11-libs/wxGTK                  -gstreamer
