@@ -2,8 +2,7 @@ app-admin/conky                 hddtemp iostats mpd noxdamage -moc -rss
 app-admin/testdisk              ntfs reiserfs
 app-arch/p7zip                  rar
 app-backup/bacula               -sqlite
-app-editors/gvim                cscope
-app-editors/vim                 cscope vim-pager
+app-editors/vim                 vim-pager
 app-office/libreoffice          -postgres
 app-office/lyx                  luatex xetex
 app-portage/eix                 -hardened
