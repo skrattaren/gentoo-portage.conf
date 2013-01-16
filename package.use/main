@@ -8,6 +8,7 @@ app-portage/eix                 -hardened
 app-portage/layman              git subversion
 app-text/calibre                -udisks
 app-text/lodgeit                vim
+app-text/zathura-meta           djvu
 dev-db/postgresql-server        perl
 dev-db/sqlite                   secure-delete unlock-notify
 dev-lang/ghc                    llvm
