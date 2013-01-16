@@ -12,6 +12,7 @@ app-text/lodgeit                vim
 app-text/texi2html              -unicode
 app-text/texlive                luatex xetex
 app-text/texlive-core           xetex
+app-text/zathura-meta           djvu
 dev-db/postgresql-server        perl
 dev-db/sqlite                   secure-delete unlock-notify
 dev-lang/ghc                    llvm
@@ -61,6 +62,7 @@ net-misc/dhcpcd                 -zeroconf
 net-misc/wicd                   -gtk -libnotify
 net-print/cups                  ppds samba slp
 net-print/hplip                 hpijs -libnotify
+sci-libs/hdf5                   -cxx -fortran
 sci-visualization/gnuplot       gd plotutils
 sys-apps/flashrom               wiki serprog
 sys-apps/pciutils               -zlib
