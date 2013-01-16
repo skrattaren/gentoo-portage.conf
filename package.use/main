@@ -55,6 +55,7 @@ net-misc/wicd                   -gtk -libnotify
 net-p2p/transmission            -gtk
 net-print/cups                  ppds samba slp
 net-print/hplip                 hpijs -libnotify
+sci-libs/hdf5                   -cxx -fortran
 sci-visualization/gnuplot       gd plotutils
 sys-apps/flashrom               wiki serprog
 sys-apps/pciutils               -zlib
