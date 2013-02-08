@@ -37,7 +37,7 @@ media-libs/gd                   fontconfig
 media-libs/libpng               apng
 media-libs/libraw               demosaic
 media-libs/mediastreamer        g729 video
-media-libs/mesa                 gles xa -classic
+media-libs/mesa                 gbm gles xa -classic
 media-libs/phonon               -vlc
 media-sound/mpd                 inotify -audiofile
 media-sound/ncmpcpp             clock curl
@@ -79,6 +79,7 @@ www-servers/nginx               -nginx_modules_http_geo
 x11-apps/xinit                  minimal
 x11-base/xorg-server            kdrive
 x11-libs/gtkdatabox             -glade
+x11-libs/libdrm                 libkms
 x11-libs/pango                  introspection
 x11-libs/qt-gui                 gtkstyle raster
 x11-libs/wxGTK                  -gstreamer
