@@ -24,7 +24,8 @@ dev-python/imaging              -lcms
 dev-python/ipython              -smp
 dev-python/spyder               pylint #ipython
 dev-python/winpdb               wxwidgets
-dev-util/qt-creator             debugger bookmarks doc fakevim git qtscript subversion
+dev-qt/qt-creator               debugger bookmarks doc fakevim git qtscript subversion
+dev-qt/qtgui                    gtkstyle raster
 dev-vcs/git                     -gtk
 games-action/teeworlds          server
 gnome-base/librsvg              -zlib
@@ -81,7 +82,6 @@ x11-base/xorg-server            kdrive
 x11-libs/gtkdatabox             -glade
 x11-libs/libdrm                 libkms
 x11-libs/pango                  introspection
-x11-libs/qt-gui                 gtkstyle raster
 x11-libs/wxGTK                  -gstreamer
 =x11-misc/kbdd-9999             debug
 x11-terms/rxvt-unicode          256-color fading-colors perl pixbuf secondary-wheel unicode3 -vanilla
