@@ -2,10 +2,10 @@ app-admin/eselect               doc
 app-shells/zsh                  doc
 dev-db/postgresql-*             doc
 dev-lang/erlang                 doc
+dev-qt/qthelp                   doc
 sys-apps/pkgcore                doc
 sys-apps/portage                doc
 sys-fs/inotify-tools            doc
-x11-libs/qt-assistant           doc
 x11-wm/awesome                  doc
 
 # vim: filetype=gentoo-package-use
