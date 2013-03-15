@@ -53,6 +53,7 @@ net-im/psi                      iconsets plugins
 net-libs/gnutls                 nettle
 net-libs/libproxy               -pac -webkit
 net-libs/webkit-gtk             -geoloc
+net-misc/aria2                  bittorrent
 net-misc/dhcpcd                 -zeroconf
 net-misc/wicd                   -gtk -libnotify
 net-p2p/transmission            -gtk
