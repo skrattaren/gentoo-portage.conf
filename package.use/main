@@ -76,6 +76,7 @@ sys-fs/ntfs3g                   ntfsprogs
 sys-kernel/pf-sources           symlink
 sys-libs/gdbm                   berkdb
 sys-libs/zlib                   minizip
+sys-power/upower                deprecated
 www-client/firefox              system-sqlite
 www-client/luakit               luajit
 www-plugins/adobe-flash         -32bit
