@@ -82,6 +82,7 @@ x11-apps/xinit                  minimal
 x11-base/xorg-server            kdrive
 x11-libs/gtkdatabox             -glade
 x11-libs/libdrm                 libkms
+x11-libs/libxcb                 xkb
 x11-libs/pango                  introspection
 x11-libs/wxGTK                  -gstreamer
 =x11-misc/kbdd-9999             debug
