@@ -2,6 +2,7 @@ app-admin/conky                 hddtemp iostats mpd noxdamage -moc -rss
 app-admin/testdisk              ntfs reiserfs
 app-arch/p7zip                  rar
 app-backup/bacula               -sqlite
+app-doc/pms                     binary html
 app-editors/vim                 vim-pager
 app-misc/vifm                   vim
 app-office/lyx                  luatex -html -latex
