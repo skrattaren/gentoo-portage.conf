@@ -6,6 +6,5 @@ dev-qt/qthelp                   doc
 sys-apps/pkgcore                doc
 sys-apps/portage                doc
 sys-fs/inotify-tools            doc
-x11-wm/awesome                  doc
 
 # vim: filetype=gentoo-package-use
