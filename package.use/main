@@ -2,6 +2,7 @@ app-admin/conky                 hddtemp iostats mpd noxdamage -moc -rss
 app-admin/testdisk              ntfs reiserfs
 app-arch/p7zip                  rar
 app-backup/bacula               -sqlite
+app-doc/pms                     binary html
 app-editors/vim                 vim-pager
 app-misc/vifm                   vim
 app-office/libreoffice          -postgres
@@ -60,6 +61,7 @@ net-im/psi                      iconsets plugins
 net-libs/gnutls                 nettle
 net-libs/libproxy               -pac -webkit
 net-libs/webkit-gtk             -geoloc
+net-misc/aria2                  bittorrent
 net-misc/dhcpcd                 -zeroconf
 net-misc/wicd                   -gtk -libnotify
 net-print/cups                  ppds samba slp
@@ -89,6 +91,7 @@ x11-apps/xinit                  minimal
 x11-base/xorg-server            kdrive
 x11-libs/gtkdatabox             -glade
 x11-libs/libdrm                 libkms
+x11-libs/libxcb                 xkb
 x11-libs/pango                  introspection
 x11-libs/wxGTK                  -gstreamer
 =x11-misc/kbdd-9999             debug
