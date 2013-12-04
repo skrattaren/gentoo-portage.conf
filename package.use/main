@@ -68,8 +68,8 @@ sys-apps/pmount                 -crypt
 sys-block/parted                device-mapper
 sys-boot/grub                   -ncurses
 sys-devel/gcc                   go graphite
+sys-fs/eudev                    hwdb keymap
 sys-fs/ntfs3g                   ntfsprogs
-sys-fs/udev                     extras
 sys-kernel/gentoo-sources       symlink
 sys-libs/gdbm                   berkdb
 sys-libs/zlib                   minizip
