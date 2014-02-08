@@ -73,11 +73,13 @@ sys-auth/polkit                 -gtk
 sys-block/parted                device-mapper
 sys-boot/grub                   -ncurses
 sys-devel/gcc                   go graphite
+sys-fs/eudev                    hwdb keymap
 sys-fs/ntfs3g                   ntfsprogs
-sys-kernel/pf-sources           symlink
+sys-kernel/gentoo-sources       symlink
 sys-libs/gdbm                   berkdb
 sys-libs/zlib                   minizip
 sys-power/upower                deprecated
+www-apps/nikola                 charts jinja
 www-client/firefox              system-sqlite
 www-client/luakit               luajit
 www-plugins/adobe-flash         -32bit
