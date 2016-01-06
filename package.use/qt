@@ -1,0 +1,9 @@
+app-crypt/qca               qt4 gpg
+app-text/poppler            qt4
+dev-qt/qtgui                gtkstyle raster
+dev-qt/qtwidgets            gtkstyle
+dev-qt/qtlockedfile         qt4
+dev-qt/qtsingleapplication  qt4
+dev-qt/qtwebkit             printsupport
+x11-themes/qtcurve          qt4
+

@@ -1,3 +1,4 @@
+dev-embedded/libftdi            -python
 media-gfx/graphviz              -python
 media-gfx/hugin                 -python
 media-libs/lcms                 -python
