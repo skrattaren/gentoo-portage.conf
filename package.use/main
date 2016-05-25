@@ -14,8 +14,10 @@ app-text/zathura-meta           djvu
 dev-db/postgresql-server        perl
 dev-db/sqlite                   secure-delete unlock-notify
 dev-lang/ghc                    binary llvm
+dev-lang/lua                    deprecated
 dev-lang/python                 wininst
 dev-libs/apr-util               sqlite3 -sqlite
+dev-libs/libpcre                pcre16
 dev-libs/nettle                 gmp
 dev-libs/tinyxml                -stl
 dev-libs/xmlrpc-c               -tools
@@ -23,10 +25,9 @@ dev-python/PyQt4                help sql
 dev-python/bpython              urwid
 dev-python/imaging              -lcms
 dev-python/ipython              -smp
-dev-python/spyder               pylint #ipython
+dev-python/spyder               pylint
 dev-python/winpdb               wxwidgets
 dev-qt/qt-creator               debugger bookmarks doc fakevim git qtscript subversion
-dev-qt/qtgui                    gtkstyle raster
 dev-vcs/git                     -gtk
 games-action/teeworlds          server
 gnome-base/librsvg              -zlib
@@ -38,12 +39,13 @@ media-libs/chromaprint          tools
 media-libs/gd                   fontconfig
 media-libs/libpng               apng
 media-libs/libraw               demosaic
+media-libs/libvpx               postproc
 media-libs/mediastreamer        g729 video
 media-libs/mesa                 g3dvl gbm gles openvg xa xorg xvmc
 media-libs/phonon               -vlc
 media-sound/mpd                 inotify -audiofile
 media-sound/ncmpcpp             clock curl
-media-sound/puddletag           cover musicbrainz
+media-sound/puddletag           acoustid cover musicbrainz
 media-sound/shntool             mac
 media-sound/split2flac          imagemagick mac -mp4 -vorbis
 media-video/hwdecode-demos      vaapi
@@ -66,19 +68,23 @@ sys-apps/flashrom               wiki serprog
 sys-apps/iproute2               -iptables
 sys-apps/pciutils               -zlib
 sys-apps/pmount                 -crypt
-sys-apps/tuxonice-userui        fbsplash
+sys-auth/pambase                consolekit
 sys-auth/consolekit             policykit
 sys-auth/pambase                consolekit
 sys-auth/polkit                 -gtk
 sys-block/parted                device-mapper
 sys-boot/grub                   -ncurses
 sys-devel/gcc                   go graphite
+sys-devel/llvm                  clang
+sys-fs/eudev                    hwdb keymap
 sys-fs/ntfs3g                   ntfsprogs
-sys-kernel/pf-sources           symlink
+sys-kernel/gentoo-sources       symlink
 sys-libs/gdbm                   berkdb
 sys-libs/zlib                   minizip
-sys-power/upower                deprecated
-www-client/firefox              system-sqlite
+www-apps/nikola                 assets charts hyphenation jinja watchdog webmedia
+#www-client/firefox              custom-cflags custom-optimization
+www-client/firefox              system-cairo system-icu system-jpeg system-libvpx system-sqlite
+www-client/firefox              -gtk3
 www-client/luakit               luajit
 www-plugins/adobe-flash         -32bit
 www-plugins/google-talkplugin   -system-libCg
@@ -93,7 +99,7 @@ x11-libs/libxcb                 xkb
 x11-libs/pango                  introspection
 x11-libs/wxGTK                  -gstreamer
 =x11-misc/kbdd-9999             debug
-x11-terms/rxvt-unicode          256-color fading-colors perl pixbuf secondary-wheel unicode3 -vanilla
+x11-terms/rxvt-unicode          256-color perl secondary-wheel unicode3 -vanilla
 x11-themes/faenza-icon-theme    minimal
 x11-themes/gentoo-artwork       offensive
 x11-themes/nou-icon-theme       minimal
