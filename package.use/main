@@ -25,7 +25,7 @@ dev-python/PyQt4                help sql
 dev-python/bpython              urwid
 dev-python/imaging              -lcms
 dev-python/ipython              -smp
-dev-python/spyder               pylint #ipython
+dev-python/spyder               pylint
 dev-python/winpdb               wxwidgets
 dev-qt/qt-creator               debugger bookmarks doc fakevim git qtscript subversion
 dev-vcs/git                     -gtk
@@ -39,12 +39,13 @@ media-libs/chromaprint          tools
 media-libs/gd                   fontconfig
 media-libs/libpng               apng
 media-libs/libraw               demosaic
+media-libs/libvpx               postproc
 media-libs/mediastreamer        g729 video
 media-libs/mesa                 g3dvl gbm gles openvg xa xorg xvmc
 media-libs/phonon               -vlc
 media-sound/mpd                 inotify -audiofile
 media-sound/ncmpcpp             clock curl
-media-sound/puddletag           cover musicbrainz
+media-sound/puddletag           acoustid cover musicbrainz
 media-sound/shntool             mac
 media-sound/split2flac          imagemagick mac -mp4 -vorbis
 media-video/hwdecode-demos      vaapi
@@ -71,13 +72,16 @@ sys-auth/pambase                consolekit
 sys-block/parted                device-mapper
 sys-boot/grub                   -ncurses
 sys-devel/gcc                   go graphite
+sys-devel/llvm                  clang
 sys-fs/eudev                    hwdb keymap
 sys-fs/ntfs3g                   ntfsprogs
 sys-kernel/gentoo-sources       symlink
 sys-libs/gdbm                   berkdb
 sys-libs/zlib                   minizip
 www-apps/nikola                 assets charts hyphenation jinja watchdog webmedia
-www-client/firefox              system-sqlite
+#www-client/firefox              custom-cflags custom-optimization
+www-client/firefox              system-cairo system-icu system-jpeg system-libvpx system-sqlite
+www-client/firefox              -gtk3
 www-client/luakit               luajit
 www-plugins/adobe-flash         -32bit
 www-plugins/google-talkplugin   -system-libCg
