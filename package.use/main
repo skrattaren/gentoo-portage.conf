@@ -80,7 +80,9 @@ sys-libs/gdbm                   berkdb
 sys-libs/zlib                   minizip
 www-apps/nikola                 assets charts hyphenation jinja watchdog webmedia
 #www-client/firefox              custom-cflags custom-optimization
-www-client/firefox              system-cairo system-icu system-jpeg system-libvpx system-sqlite
+www-client/firefox              system-harfbuzz system-icu system-jpeg system-libvpx system-sqlite
+#system libevent is too new
+#www-client/firefox              system-libevent
 www-client/firefox              -gtk3
 www-client/luakit               luajit
 www-plugins/adobe-flash         -32bit
