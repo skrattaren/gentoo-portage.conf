@@ -32,7 +32,9 @@ dev-vcs/git                     -gtk
 games-action/teeworlds          server
 gnome-base/librsvg              -zlib
 mail-client/mutt                imap pop sidebar smime smtp
-mail-client/thunderbird         -crypt
+mail-client/thunderbird         system-harfbuzz system-icu system-jpeg system-libvpx system-sqlite
+#system libevent is too new
+#mail-client/thunderbird        system-libevent
 media-gfx/imagemagick           -corefonts
 media-gfx/splashutils           fbcondecor gpm
 media-libs/chromaprint          tools
