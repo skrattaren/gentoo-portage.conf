@@ -38,6 +38,7 @@ mail-client/thunderbird         system-harfbuzz system-icu system-jpeg system-li
 media-gfx/imagemagick           -corefonts
 media-gfx/splashutils           fbcondecor gpm
 media-libs/chromaprint          tools
+media-libs/freetype             utils
 media-libs/gd                   fontconfig
 media-libs/libpng               apng
 media-libs/libraw               demosaic
