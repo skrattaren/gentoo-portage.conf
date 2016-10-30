@@ -46,6 +46,7 @@ media-libs/libvpx               postproc
 media-libs/mediastreamer        g729 video
 media-libs/mesa                 g3dvl gbm gles openvg xa xorg xvmc
 media-libs/phonon               -vlc
+net-print/cups-filters          -pdf
 media-sound/mpd                 inotify -audiofile
 media-sound/ncmpcpp             clock curl
 media-sound/puddletag           acoustid cover musicbrainz
