@@ -28,7 +28,7 @@ dev-python/ipython              -smp
 dev-python/spyder               pylint
 dev-python/winpdb               wxwidgets
 dev-qt/qt-creator               debugger bookmarks doc fakevim git qtscript subversion
-dev-vcs/git                     -gtk
+dev-vcs/git                     perl -gtk
 games-action/teeworlds          server
 gnome-base/librsvg              -zlib
 mail-client/mutt                imap pop sidebar smime smtp
