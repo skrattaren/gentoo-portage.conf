@@ -2,7 +2,7 @@ app-crypt/qca               gpg
 app-text/poppler            qt5
 dev-qt/qtgui                gtkstyle raster
 dev-qt/qtwidgets            gtkstyle
-dev-qt/qtwebkit             printsupport
+dev-qt/qtwebkit:4           -gstreamer
 x11-themes/qtcurve          qt5
 
 # vim: filetype=gentoo-package-use
