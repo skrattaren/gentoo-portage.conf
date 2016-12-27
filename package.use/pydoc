@@ -1,5 +1,6 @@
 dev-lang/python                 doc examples
 dev-python/*                    doc examples
+=dev-python/botocore-1.4*       -doc
 dev-python/epydoc               -X
 dev-python/matplotlib           -doc
 
