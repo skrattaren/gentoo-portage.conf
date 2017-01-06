@@ -2,6 +2,7 @@ app-crypt/qca               gpg
 app-text/poppler            qt5
 dev-qt/qtgui                gtkstyle raster
 dev-qt/qtwidgets            gtkstyle
+dev-qt/qtwebkit:4           -gstreamer
 dev-qt/qtwebkit             printsupport
 x11-themes/qtcurve          qt5
 
