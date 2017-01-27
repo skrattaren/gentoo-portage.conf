@@ -104,7 +104,7 @@ x11-libs/gtkdatabox             -glade
 x11-libs/libdrm                 libkms
 x11-libs/libxcb                 xkb
 x11-libs/pango                  introspection
-x11-libs/wxGTK                  -gstreamer
+x11-libs/wxGTK                  -gstreamer -webkit
 =x11-misc/kbdd-9999             debug
 x11-terms/rxvt-unicode          256-color perl secondary-wheel unicode3 -vanilla
 x11-themes/faenza-icon-theme    minimal
