@@ -45,7 +45,7 @@ media-libs/freetype             utils
 media-libs/gd                   fontconfig
 media-libs/libpng               apng
 media-libs/libraw               demosaic
-media-libs/libvpx               postproc
+media-libs/libvpx               postproc svc
 media-libs/mediastreamer        g729 video
 media-libs/mesa                 g3dvl gbm gles openvg xa xorg xvmc
 media-libs/phonon               -vlc

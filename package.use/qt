@@ -3,7 +3,10 @@ app-text/poppler            qt5
 dev-qt/qtgui                gtkstyle raster
 dev-qt/qtwidgets            gtkstyle
 dev-qt/qtwebkit:4           -gstreamer
+dev-qt/qtwebchannel         qml
+dev-qt/qtwebengine          widgets
 dev-qt/qtwebkit             printsupport
+sci-geosciences/gpsbabel    qt5
 x11-themes/qtcurve          qt5
 
 # vim: filetype=gentoo-package-use
