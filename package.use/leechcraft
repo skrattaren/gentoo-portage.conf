@@ -1,2 +1,4 @@
 app-leechcraft/lc-core          -qwt
 app-leechcraft/lc-azoth         spell -latex -msn -woodpecker -xtazy
+
+# vim: filetype=gentoo-package-use
