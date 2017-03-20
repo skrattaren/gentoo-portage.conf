@@ -92,7 +92,6 @@ www-client/firefox              system-harfbuzz system-icu system-jpeg system-li
 #system libevent is too new
 #www-client/firefox              system-libevent
 www-client/firefox              -gtk3
-www-client/luakit               luajit
 www-plugins/adobe-flash         -32bit
 www-plugins/google-talkplugin   -system-libCg
 www-plugins/lightspark          nsplugin
