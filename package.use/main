@@ -82,7 +82,7 @@ sys-devel/gcc                   go graphite
 sys-devel/llvm                  clang
 sys-fs/eudev                    hwdb keymap
 sys-fs/ntfs3g                   ntfsprogs
-sys-kernel/gentoo-sources       symlink
+#sys-kernel/gentoo-sources       symlink
 sys-libs/gdbm                   berkdb
 sys-libs/zlib                   minizip
 www-apps/nikola                 assets charts hyphenation jinja watchdog webmedia
