@@ -36,6 +36,7 @@ games-action/teeworlds          server
 gnome-base/librsvg              -zlib
 mail-client/mutt                imap pop sidebar smime smtp
 mail-client/thunderbird         system-harfbuzz system-icu system-jpeg system-libvpx system-sqlite
+mail-client/thunderbird         gtk2
 #system libevent is too new
 #mail-client/thunderbird        system-libevent
 media-gfx/imagemagick           -corefonts
@@ -87,7 +88,7 @@ sys-libs/gdbm                   berkdb
 sys-libs/zlib                   minizip
 www-apps/nikola                 assets charts hyphenation jinja watchdog webmedia
 #www-client/firefox              custom-cflags custom-optimization
-www-client/firefox              hwaccel
+www-client/firefox              gtk2 hwaccel
 www-client/firefox              system-harfbuzz system-icu system-jpeg system-libvpx system-sqlite
 #system libevent is too new
 #www-client/firefox              system-libevent
