@@ -5,4 +5,6 @@ media-gfx/hugin                 -python
 media-libs/lcms                 -python
 sys-libs/libcap-ng              -python
 
+app-text/asciidoc               PYTHON_SINGLE_TARGET: python2_7
+
 # vim: filetype=gentoo-package-use
