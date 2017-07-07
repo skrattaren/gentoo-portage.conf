@@ -7,7 +7,7 @@ app-editors/vim                 vim-pager
 app-misc/vifm                   vim
 app-office/lyx                  luatex -html -latex
 app-portage/eix                 -hardened
-app-portage/layman              git subversion
+app-portage/layman              git
 app-text/calibre                -udisks
 app-text/lodgeit                vim
 app-text/zathura-meta           djvu
