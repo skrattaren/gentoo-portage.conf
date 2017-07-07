@@ -28,7 +28,6 @@ dev-python/imaging              -lcms
 dev-python/ipython              -smp
 dev-python/spyder               pylint
 dev-python/winpdb               wxwidgets
-dev-qt/qt-creator               debugger bookmarks doc fakevim git qtscript subversion
 app-text/texlive-core           xetex
 app-text/texlive                extra xetex
 dev-vcs/git                     perl -gtk
