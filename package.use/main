@@ -50,6 +50,7 @@ media-libs/mediastreamer        g729 video
 media-libs/mesa                 g3dvl gbm gles openvg xa xorg xvmc
 media-libs/phonon               -vlc
 net-print/cups-filters          -pdf
+media-fonts/terminus-font       distinct-l
 media-sound/mpd                 inotify -audiofile
 media-sound/ncmpcpp             clock curl
 media-sound/puddletag           acoustid cover musicbrainz
