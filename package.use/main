@@ -7,7 +7,7 @@ app-editors/vim                 vim-pager
 app-misc/vifm                   vim
 app-office/lyx                  luatex -html -latex
 app-portage/eix                 -hardened
-app-portage/layman              git subversion
+app-portage/layman              git
 app-text/calibre                -udisks
 app-text/lodgeit                vim
 app-text/zathura-meta           djvu
@@ -28,7 +28,6 @@ dev-python/imaging              -lcms
 dev-python/ipython              -smp
 dev-python/spyder               pylint
 dev-python/winpdb               wxwidgets
-dev-qt/qt-creator               debugger bookmarks doc fakevim git qtscript subversion
 app-text/texlive-core           xetex
 app-text/texlive                extra xetex
 dev-vcs/git                     perl -gtk
@@ -42,7 +41,7 @@ mail-client/thunderbird         gtk2
 media-gfx/imagemagick           -corefonts
 media-gfx/splashutils           fbcondecor gpm
 media-libs/chromaprint          tools
-media-libs/freetype             utils
+media-libs/freetype             harfbuzz utils
 media-libs/gd                   fontconfig
 media-libs/libpng               apng
 media-libs/libraw               demosaic
@@ -51,6 +50,7 @@ media-libs/mediastreamer        g729 video
 media-libs/mesa                 g3dvl gbm gles openvg xa xorg xvmc
 media-libs/phonon               -vlc
 net-print/cups-filters          -pdf
+media-fonts/terminus-font       distinct-l
 media-sound/mpd                 inotify -audiofile
 media-sound/ncmpcpp             clock curl
 media-sound/puddletag           acoustid cover musicbrainz
