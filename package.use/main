@@ -31,6 +31,7 @@ dev-python/spyder               pylint
 dev-python/winpdb               wxwidgets
 app-text/texlive-core           xetex
 app-text/texlive                extra xetex
+dev-python/netaddr              -cli
 dev-vcs/git                     perl -gtk
 games-action/teeworlds          server
 gnome-base/librsvg              -zlib
