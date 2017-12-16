@@ -41,6 +41,7 @@ mail-client/thunderbird         gtk2
 #system libevent is too new
 #mail-client/thunderbird        system-libevent
 media-gfx/imagemagick           -corefonts
+media-gfx/nomacs                -raw -tiff
 media-gfx/splashutils           fbcondecor gpm
 media-libs/chromaprint          tools
 media-libs/freetype             harfbuzz utils
