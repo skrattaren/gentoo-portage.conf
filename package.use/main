@@ -60,7 +60,6 @@ media-sound/puddletag           acoustid cover musicbrainz
 media-sound/shntool             mac
 media-sound/split2flac          imagemagick mac -mp4 -vorbis
 media-video/hwdecode-demos      vaapi
-media-video/mplayer2            cdparanoia -dirac -dv -live -mp3 -schroedinger
 net-analyzer/nmap               -lua
 net-im/pidgin                   -gstreamer
 net-im/psi                      iconsets plugins
