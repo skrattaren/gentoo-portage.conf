@@ -35,7 +35,7 @@ dev-python/netaddr              -cli
 dev-vcs/git                     perl -gtk
 games-action/teeworlds          server
 gnome-base/librsvg              -zlib
-mail-client/mutt                imap pop sidebar pgp_classic smtp
+mail-client/mutt                imap pop sidebar pgp_classic smtp -lmdb -sasl
 mail-client/thunderbird         system-harfbuzz system-icu system-jpeg system-libvpx system-sqlite
 mail-client/thunderbird         gtk2
 #system libevent is too new
