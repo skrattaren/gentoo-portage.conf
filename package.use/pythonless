@@ -9,13 +9,6 @@ app-text/asciidoc               PYTHON_SINGLE_TARGET: python2_7
 
 dev-python/awscli               PYTHON_TARGETS: -python2_7
 
-app-editors/vim                 PYTHON_TARGETS: -python3_5 python3_6
-app-editors/gvim                PYTHON_TARGETS: -python3_5 python3_6
-app-vim/gundo                   PYTHON_TARGETS: -python3_5 python3_6
-app-editors/vim                 PYTHON_SINGLE_TARGET: -* python3_6
-app-editors/gvim                PYTHON_SINGLE_TARGET: -* python3_6
-app-vim/gundo                   PYTHON_SINGLE_TARGET: -* python3_6
-
 dev-python/neovim-python-client PYTHON_TARGETS: -python2_7
 
 # vim: filetype=gentoo-package-use
