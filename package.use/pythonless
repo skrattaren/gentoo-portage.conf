@@ -6,6 +6,9 @@ media-libs/lcms                 -python
 sys-libs/libcap-ng              -python
 
 dev-python/awscli               PYTHON_TARGETS: -python2_7
+dev-python/boto3                PYTHON_TARGETS: -python2_7
+dev-python/botocore             PYTHON_TARGETS: -python2_7
+dev-python/s3transfer           PYTHON_TARGETS: -python2_7
 
 app-editors/vim                 PYTHON_TARGETS: -python3_5 python3_6
 app-editors/gvim                PYTHON_TARGETS: -python3_5 python3_6
