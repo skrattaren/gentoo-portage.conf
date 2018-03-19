@@ -8,6 +8,9 @@ sys-libs/libcap-ng              -python
 app-text/asciidoc               PYTHON_SINGLE_TARGET: python2_7
 
 dev-python/awscli               PYTHON_TARGETS: -python2_7
+dev-python/boto3                PYTHON_TARGETS: -python2_7
+dev-python/botocore             PYTHON_TARGETS: -python2_7
+dev-python/s3transfer           PYTHON_TARGETS: -python2_7
 
 dev-python/neovim-python-client PYTHON_TARGETS: -python2_7
 
