@@ -1,12 +1,13 @@
 app-crypt/qca               gpg
-dev-qt/qtgui                gtkstyle raster
+dev-qt/qtgui                accessibility gtkstyle raster
 dev-qt/qtwidgets            gtkstyle
 dev-qt/qtwebkit:4           -gstreamer
 dev-qt/qtwebchannel         qml
 dev-qt/qtwebengine          widgets
 dev-qt/qtwebkit             printsupport
 
-dev-vcs/hgview              qt4
+dev-python/PyQt5            declarative sql webchannel webengine
+
 x11-themes/qtcurve          qt4
 
 # vim: filetype=gentoo-package-use
