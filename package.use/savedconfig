@@ -1,0 +1,4 @@
+x11-misc/tabbed     savedconfig
+x11-terms/st        savedconfig
+
+# vim: filetype=gentoo-package-use
