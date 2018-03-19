@@ -1,8 +1,0 @@
-dev-lang/python                 doc examples
-dev-python/*                    doc examples
-dev-python/boto3                -doc
-dev-python/botocore             -doc
-dev-python/epydoc               -X
-dev-python/matplotlib           -doc
-
-# vim: filetype=gentoo-package-use
