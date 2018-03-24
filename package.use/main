@@ -1,7 +1,6 @@
 app-admin/conky                 hddtemp iostats mpd noxdamage -moc -rss
 app-admin/testdisk              ntfs reiserfs
 app-arch/p7zip                  rar
-app-backup/bacula               -sqlite
 app-doc/pms                     binary html
 app-editors/vim                 vim-pager
 app-misc/vifm                   vim
@@ -12,22 +11,16 @@ app-text/calibre                -udisks
 app-text/lodgeit                vim
 app-text/zathura-meta           djvu
 app-misc/ca-certificates        insecure_certs
-dev-db/postgresql-server        perl
 dev-db/sqlite                   secure-delete unlock-notify
 dev-lang/ghc                    llvm
-dev-lang/python                 wininst
-dev-libs/apr-util               sqlite3 -sqlite
 dev-libs/libpcre                pcre16
 dev-libs/libpcre2               pcre16
 dev-libs/nettle                 gmp
 dev-libs/tinyxml                -stl
-dev-libs/xmlrpc-c               -tools
 dev-python/PyQt4                help sql
 dev-python/bpython              urwid
-dev-python/imaging              -lcms
 dev-python/ipython              -smp
 dev-python/spyder               pylint
-dev-python/winpdb               wxwidgets
 app-text/texlive-core           xetex
 app-text/texlive                extra xetex
 dev-python/netaddr              -cli
@@ -58,7 +51,6 @@ media-sound/ncmpcpp             clock curl
 media-sound/puddletag           acoustid cover musicbrainz
 media-sound/shntool             mac
 media-sound/split2flac          imagemagick mac -mp4 -vorbis
-media-video/hwdecode-demos      vaapi
 net-analyzer/nmap               -lua
 net-im/pidgin                   -gstreamer
 net-im/psi                      iconsets plugins
