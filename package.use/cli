@@ -1,0 +1,21 @@
+app-arch/p7zip                  rar
+app-doc/pms                     binary html
+app-misc/skim                   tmux vim
+app-misc/vifm                   vim
+app-text/lodgeit                vim
+dev-python/bpython              urwid
+dev-python/ipython              -smp
+dev-vcs/git                     perl -gtk
+gnome-base/librsvg              -zlib
+mail-client/mutt                imap pop sidebar pgp_classic smtp -lmdb -sasl
+media-sound/mpd                 inotify -audiofile
+media-sound/ncmpcpp             clock curl
+media-sound/shntool             mac
+media-sound/split2flac          imagemagick mac -mp4 -vorbis
+net-misc/aria2                  bittorrent
+net-misc/wicd                   -gtk -libnotify
+sci-visualization/gnuplot       gd plotutils
+sys-apps/pmount                 -crypt
+www-apps/nikola                 assets charts hyphenation jinja watchdog webmedia
+
+# vim: filetype=gentoo-package-use

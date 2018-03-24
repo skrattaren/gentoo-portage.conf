@@ -1,6 +1,5 @@
 app-admin/eselect               doc
 app-shells/zsh                  doc
-dev-db/postgresql-*             doc
 dev-lang/erlang                 doc
 dev-qt/qthelp                   doc
 sys-apps/pkgcore                doc
