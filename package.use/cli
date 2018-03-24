@@ -1,5 +1,6 @@
 app-arch/p7zip                  rar
 app-doc/pms                     binary html
+app-misc/skim                   tmux vim
 app-misc/vifm                   vim
 app-text/lodgeit                vim
 dev-python/bpython              urwid
