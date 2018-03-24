@@ -15,7 +15,6 @@ app-misc/ca-certificates        insecure_certs
 dev-db/postgresql-server        perl
 dev-db/sqlite                   secure-delete unlock-notify
 dev-lang/ghc                    llvm
-dev-lang/lua                    deprecated
 dev-lang/python                 wininst
 dev-libs/apr-util               sqlite3 -sqlite
 dev-libs/libpcre                pcre16
