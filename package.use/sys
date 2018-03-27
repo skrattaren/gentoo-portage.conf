@@ -1,0 +1,26 @@
+app-admin/testdisk              ntfs reiserfs
+app-portage/eix                 -hardened
+app-portage/layman              git
+app-misc/ca-certificates        insecure_certs
+dev-db/sqlite                   secure-delete unlock-notify
+dev-libs/libpcre                pcre16
+dev-libs/libpcre2               pcre16
+dev-libs/nettle                 gmp
+media-gfx/splashutils           fbcondecor gpm
+net-print/cups-filters          -pdf
+net-print/cups                  ppds samba slp
+sys-apps/flashrom               wiki serprog
+sys-apps/iproute2               -iptables
+sys-apps/pciutils               -zlib
+sys-auth/pambase                consolekit
+sys-block/parted                device-mapper
+sys-boot/grub                   -ncurses
+sys-devel/gcc                   go graphite
+sys-devel/llvm                  clang
+sys-fs/eudev                    hwdb keymap
+sys-fs/ntfs3g                   ntfsprogs
+#sys-kernel/gentoo-sources       symlink
+sys-libs/gdbm                   berkdb
+sys-libs/zlib                   minizip
+
+# vim: filetype=gentoo-package-use

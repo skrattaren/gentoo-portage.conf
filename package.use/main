@@ -1,17 +1,9 @@
 app-admin/conky                 hddtemp iostats mpd noxdamage -moc -rss
-app-admin/testdisk              ntfs reiserfs
 app-editors/vim                 vim-pager
 app-office/lyx                  luatex -html -latex
-app-portage/eix                 -hardened
-app-portage/layman              git
 app-text/calibre                -udisks
 app-text/zathura-meta           djvu
-app-misc/ca-certificates        insecure_certs
-dev-db/sqlite                   secure-delete unlock-notify
 dev-lang/ghc                    llvm
-dev-libs/libpcre                pcre16
-dev-libs/libpcre2               pcre16
-dev-libs/nettle                 gmp
 dev-libs/tinyxml                -stl
 dev-python/PyQt4                help sql
 dev-python/spyder               pylint
@@ -25,7 +17,6 @@ mail-client/thunderbird         gtk2
 #mail-client/thunderbird        system-libevent
 media-gfx/imagemagick           -corefonts
 media-gfx/nomacs                -raw -tiff
-media-gfx/splashutils           fbcondecor gpm
 media-libs/chromaprint          tools
 media-libs/freetype             harfbuzz utils
 media-libs/gd                   fontconfig
@@ -35,7 +26,6 @@ media-libs/libvpx               postproc svc
 media-libs/mediastreamer        g729 video
 media-libs/mesa                 g3dvl gbm gles openvg xa xorg xvmc
 media-libs/phonon               -vlc
-net-print/cups-filters          -pdf
 media-fonts/terminus-font       distinct-l
 media-sound/puddletag           acoustid cover musicbrainz
 net-im/pidgin                   -gstreamer
@@ -45,22 +35,8 @@ net-libs/libproxy               -pac -webkit
 net-libs/webkit-gtk             -geoloc
 net-misc/dhcpcd                 -zeroconf
 net-p2p/transmission            -gtk
-net-print/cups                  ppds samba slp
 net-print/hplip                 hpijs -libnotify
 sci-libs/hdf5                   -cxx -fortran -hl
-sys-apps/flashrom               wiki serprog
-sys-apps/iproute2               -iptables
-sys-apps/pciutils               -zlib
-sys-auth/pambase                consolekit
-sys-block/parted                device-mapper
-sys-boot/grub                   -ncurses
-sys-devel/gcc                   go graphite
-sys-devel/llvm                  clang
-sys-fs/eudev                    hwdb keymap
-sys-fs/ntfs3g                   ntfsprogs
-#sys-kernel/gentoo-sources       symlink
-sys-libs/gdbm                   berkdb
-sys-libs/zlib                   minizip
 #www-client/firefox              custom-cflags custom-optimization
 www-client/firefox              gtk2 hwaccel
 www-client/firefox              system-harfbuzz system-icu system-jpeg system-libvpx system-sqlite
