@@ -1,0 +1,10 @@
+app-editors/vim                 vim-pager
+app-office/lyx                  luatex -html -latex
+app-text/calibre                -udisks
+app-text/zathura-meta           djvu
+app-text/texlive-core           xetex
+app-text/texlive                extra xetex
+media-libs/freetype             harfbuzz utils
+media-fonts/terminus-font       distinct-l
+
+# vim: filetype=gentoo-package-use

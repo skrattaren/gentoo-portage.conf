@@ -1,14 +1,8 @@
 app-admin/conky                 hddtemp iostats mpd noxdamage -moc -rss
-app-editors/vim                 vim-pager
-app-office/lyx                  luatex -html -latex
-app-text/calibre                -udisks
-app-text/zathura-meta           djvu
 dev-lang/ghc                    llvm
 dev-libs/tinyxml                -stl
 dev-python/PyQt4                help sql
 dev-python/spyder               pylint
-app-text/texlive-core           xetex
-app-text/texlive                extra xetex
 dev-python/netaddr              -cli
 games-action/teeworlds          server
 mail-client/thunderbird         system-harfbuzz system-icu system-jpeg system-libvpx system-sqlite
@@ -18,7 +12,6 @@ mail-client/thunderbird         gtk2
 media-gfx/imagemagick           -corefonts
 media-gfx/nomacs                -raw -tiff
 media-libs/chromaprint          tools
-media-libs/freetype             harfbuzz utils
 media-libs/gd                   fontconfig
 media-libs/libpng               apng
 media-libs/libraw               demosaic
@@ -26,7 +19,6 @@ media-libs/libvpx               postproc svc
 media-libs/mediastreamer        g729 video
 media-libs/mesa                 g3dvl gbm gles openvg xa xorg xvmc
 media-libs/phonon               -vlc
-media-fonts/terminus-font       distinct-l
 media-sound/puddletag           acoustid cover musicbrainz
 net-im/pidgin                   -gstreamer
 net-im/psi                      iconsets plugins
