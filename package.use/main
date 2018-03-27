@@ -1,8 +1,6 @@
 app-admin/conky                 hddtemp iostats mpd noxdamage -moc -rss
 dev-lang/ghc                    llvm
-dev-libs/tinyxml                -stl
 dev-python/PyQt4                help sql
-dev-python/spyder               pylint
 dev-python/netaddr              -cli
 games-action/teeworlds          server
 mail-client/thunderbird         system-harfbuzz system-icu system-jpeg system-libvpx system-sqlite
@@ -36,17 +34,12 @@ www-client/firefox              system-harfbuzz system-icu system-jpeg system-li
 #www-client/firefox              system-libevent
 www-client/firefox              -gtk3
 www-plugins/adobe-flash         -32bit
-www-plugins/google-talkplugin   -system-libCg
-www-plugins/lightspark          nsplugin
-www-servers/cherokee            admin coverpage ldap
 www-servers/nginx               -nginx_modules_http_geo
 x11-apps/xinit                  minimal
 x11-base/xorg-server            kdrive
-x11-libs/gtkdatabox             -glade
 x11-libs/libdrm                 libkms
 x11-libs/libxcb                 xkb
 x11-libs/pango                  introspection
-x11-libs/wxGTK                  -gstreamer -webkit
 =x11-misc/kbdd-9999             debug
 x11-terms/rxvt-unicode          256-color perl secondary-wheel unicode3 -vanilla
 x11-themes/faenza-icon-theme    minimal
