@@ -4,7 +4,7 @@ app-portage/layman              git
 app-misc/ca-certificates        insecure_certs
 dev-db/sqlite                   secure-delete unlock-notify
 dev-libs/libpcre                pcre16
-dev-libs/libpcre2               pcre16
+dev-libs/libpcre2               pcre16 pcre32
 dev-libs/nettle                 gmp
 media-gfx/splashutils           fbcondecor gpm
 net-print/cups-filters          -pdf
