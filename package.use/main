@@ -8,7 +8,7 @@ mail-client/thunderbird         gtk2
 #system libevent is too new
 #mail-client/thunderbird        system-libevent
 media-gfx/imagemagick           -corefonts
-media-gfx/nomacs                -raw -tiff
+media-gfx/nomacs                -opencv -raw -tiff
 media-libs/chromaprint          tools
 media-libs/gd                   fontconfig
 media-libs/libpng               apng
