@@ -17,5 +17,6 @@ net-misc/wicd                   -gtk -libnotify
 sci-visualization/gnuplot       gd plotutils
 sys-apps/pmount                 -crypt
 www-apps/nikola                 assets charts hyphenation jinja watchdog webmedia
+www-servers/pshs                upnp
 
 # vim: filetype=gentoo-package-use
