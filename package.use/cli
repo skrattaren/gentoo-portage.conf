@@ -7,7 +7,7 @@ dev-python/bpython              urwid
 dev-python/ipython              -smp
 dev-vcs/git                     perl -gtk
 gnome-base/librsvg              -zlib
-mail-client/mutt                imap pop sidebar pgp_classic smtp -lmdb -sasl
+mail-client/mutt                imap pop sidebar pgp_classic smtp -lmdb
 media-sound/mpd                 inotify -audiofile
 media-sound/ncmpcpp             clock curl
 media-sound/shntool             mac
