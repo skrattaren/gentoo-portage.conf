@@ -1,5 +1,6 @@
 app-crypt/gpgme                 -python
 dev-embedded/libftdi            -python
+dev-libs/libnatspec             -python
 media-gfx/graphviz              -python
 media-gfx/hugin                 -python
 media-libs/lcms                 -python
