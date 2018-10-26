@@ -1,11 +1,12 @@
 app-crypt/qca               gpg
 dev-qt/qtgui                accessibility gtkstyle raster
+dev-qt/qtmultimedia         widgets
 dev-qt/qtwidgets            gtkstyle
 dev-qt/qtwebchannel         qml
 dev-qt/qtwebengine          widgets
 dev-qt/qtwebkit             printsupport
 
-dev-python/PyQt5            declarative sql webchannel webengine
+dev-python/PyQt5            declarative multimedia sql webchannel webengine
 
 x11-themes/qtcurve          qt4
 

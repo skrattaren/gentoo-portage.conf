@@ -28,11 +28,9 @@ net-p2p/transmission            -gtk
 net-print/hplip                 hpijs -libnotify
 sci-libs/hdf5                   -cxx -fortran -hl
 #www-client/firefox              custom-cflags custom-optimization
-www-client/firefox              gtk2 hwaccel
-www-client/firefox              system-harfbuzz system-icu system-jpeg system-libvpx system-sqlite
-#system libevent is too new
-#www-client/firefox              system-libevent
-www-client/firefox              -gtk3
+www-client/firefox              clang hwaccel lto
+www-client/firefox              system-harfbuzz system-icu system-jpeg
+www-client/firefox              system-libevent system-libvpx system-sqlite
 www-plugins/adobe-flash         -32bit
 www-servers/nginx               -nginx_modules_http_geo
 x11-apps/xinit                  minimal
